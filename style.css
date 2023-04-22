@@ -1,0 +1,96 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-transform: capitalize; */
+}
+body {
+    background-image: url(landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style-type: none;
+    
+    margin:0 ;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    padding: 0;
+    width: 300px;
+    height: auto;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+li:last-child{
+    border-bottom: none;
+}
+li  a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: red;
+    color:black;
+}
+
+
+li  a:hover{
+    background-color: #555;
+    color: white;
+    font-weight: bolder;
+}
+li  a:active{
+    background-color: #04AA6D;
+    color: white;
+}
+form {
+    position: absolute;
+    left: 40%;
+    top:45%;
+}
+.submit {
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height:30px;
+    position: relative;
+    left:40px;
+    background-color: rgba(15, 15, 249, 0.805);
+    text-transform: uppercase;
+    color: white;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile
+{
+    margin: 0;
+    background: url("home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile table
+{
+    background-color: #f1f1f172;
+    border:none;
+    border-radius:5px;
+    width:max-content + 30px;
+    position:absolute;
+    left:35%;
+    top:45%;
+}
+.profile table tr
+{
+    height:50px; 
+}
+.profile th
+{
+    text-transform: uppercase;
+}
+.profile  td
+{
+   background-color:white;
+
+}

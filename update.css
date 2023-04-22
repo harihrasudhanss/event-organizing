@@ -1,0 +1,34 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        background: url("home.jpg");
+        background-size: cover;
+    }
+    form
+    {
+        text-align: center;
+        /* background-color:rgba(0,0,0,0.5); */
+        /* background-color:wheat; */
+        width:300px;
+        position: absolute;
+        top:45%;
+        left:40%;
+    }
+    form input 
+    {
+        color:white;
+        background-color: transparent;
+        border:2px solid white;
+    }
+    form input::placeholder
+    {
+        color:white;
+        text-transform:capitalize;
+    }
+    .updatebtn
+    {
+        background-color: blue;
+        border-radius: 3px;
+        border:none;
+    }

@@ -1,0 +1,79 @@
+body
+{
+    background: url("invoice.jpg");
+    background-size: cover;
+    margin:0;
+
+}
+.textbox 
+{
+    height:40px;
+    width:300px;
+    border-radius:5px;
+    background-color: white;
+    text-align: center;
+    opacity: 0.5;
+    text-transform: none;
+    
+    
+}
+.textbox::placeholder
+{
+    text-align:center;
+    
+}
+
+.form
+{
+    background-color: black;
+    position: absolute;
+    top:50%;
+    left:40%;
+
+}
+.submit 
+{
+    height:30px;
+    width:100px;
+    position: absolute;
+    top:60px;
+    left:30%;
+    opacity:0.5;
+    cursor:pointer;
+}
+@media print
+{
+    body * {
+        visibility: hidden;
+    }
+    #section-to-print,#section-to-print *
+    {
+        visibility : visible;
+    }
+    #section-to-print
+    {
+        position:absolute;
+        left:0;
+        top:0;
+    }
+}
+.ticket 
+{
+    width:500px;
+    position:absolute;
+    left:400px;
+    top:50px;
+    opacity:0.5;
+    border-radius: 5px;    
+}
+
+
+.print_btn
+{
+    background-color: rgb(37, 37, 221);
+    color:white;
+    border:none;
+    border-radius:2px;
+    width:80px;
+    height:20px;
+}
